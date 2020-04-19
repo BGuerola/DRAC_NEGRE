@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+
+    <ImageView
+        android:id="@+id/fotoEquip"
+        android:layout_width="70dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="9dp"
+        android:layout_weight="66.6"
+        app:layout_constraintBottom_toBottomOf="@+id/puntsEquip"
+        app:layout_constraintEnd_toStartOf="@+id/puntsEquip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/puntsEquip"
+        android:layout_width="33dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="1dp"
+        android:background="#dcdcdc"
+        android:gravity="center"
+        android:text="TextView2"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="@+id/nomEquip"
+        app:layout_constraintEnd_toStartOf="@+id/nomEquip"
+        app:layout_constraintStart_toEndOf="@+id/fotoEquip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/nomEquip"
+        android:layout_width="199dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginEnd="72dp"
+        android:layout_weight="66.6"
+        android:background="#dcdcdc"
+        android:gravity="center"
+        android:text="Nom"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="@+id/puntsJugadors"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/puntsEquip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/puntsJugadors"
+        android:layout_width="50dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginEnd="4dp"
+        android:background="#dcdcdc"
+        android:gravity="center"
+        android:text="TextView3"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

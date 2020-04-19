@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1083052110965",
+    "firebase_url": "https://damjustixfirebase.firebaseio.com",
+    "project_id": "damjustixfirebase",
+    "storage_bucket": "damjustixfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083052110965:android:2b16081cb982b24a2fb43c",
+        "android_client_info": {
+          "package_name": "com.example.dracnegre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083052110965-m2t5jatb1na9fi0dba729amkqd2cok3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dracnegre",
+            "certificate_hash": "4a7a596743716c412515765cdc543ed14901db6a"
+          }
+        },
+        {
+          "client_id": "1083052110965-ad254kdue1ec9s99abcesvu6dfk8sfl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV1ESHpVJe1WgSQlxSGo-zwFCzValpkw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083052110965-ad254kdue1ec9s99abcesvu6dfk8sfl7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
